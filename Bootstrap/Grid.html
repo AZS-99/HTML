@@ -19,6 +19,8 @@
        class 'col'. Bootstrap divides up the  12 columns among the number of columns you have equally. For instance, if you have 
        only 3 sub-divs of class 'column', each one will take 4 columns; 1/3 of the page, which makes it realtive and fluid.
     </p>
+
+    <!-- A row with 3 equal columns -->
     <div class="row">
       <div class="col" style="background-color: lavender;">
         first column
@@ -31,10 +33,50 @@
       <div class="col" style="background-color: orange;">
         third column
       </div>
-
-      
     </div>
     
+    <br/>
+
+    <p>
+      You can also determin the width of each column. col-3 for instance means take 3 out of the 12 available.
+    </p>
+
+
+    <div class="row">
+      <div class="col-2" style="background-color: greenyellow;">
+        A column of size 2
+      </div>
+
+      <div class="col-4" style="background-color: burlywood;">
+        A column of size 4
+      </div>
+
+      <div class="col-6" style="background-color: aqua;">
+        A column of size 6
+      </div>
+    </div>
+
+
+    <br/>
+
+    <p>
+      On top of fluidity, there is more responsiveness that you can incude. columns can become rows in case of 
+      small screens like phones if you use col-sm- 
+    </p>
+
+    <div class=row>
+      <div class="col-sm" style="background-color: aqua;">
+        Responsive column
+      </div>
+
+      <div class="col-sm" style="background-color: beige;">
+        second responsive
+      </div>
+
+      <div class="col-sm" style="background-color: chocolate;">
+        Thrid responsive
+      </div>
+    </div>
 
   </body>
 </html>

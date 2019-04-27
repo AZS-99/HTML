@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <title>Forms in Bootstrap</title>
+    </head>
+
+    <body>
+        <form>
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-sm-4">
+                        <!-- 'for' connects the label, so when you click on it, you go to the textbox.  -->
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" name="firstName" id="firstName" placeholder="John" />
+                    </div>
+
+                    <div class="col-sm-4">
+                        <label for="surname">Surname</label>
+                        <input type="text" class="form-control" name="surname" id="surname" placeholder="Doe" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-sm-8">
+                        <lable for="emailAddress">Email</lable>
+                        <input class="form-control" type="email" name="email" id="emailAddress" placeholder="example@gmail.com" />
+                    </div>
+                </div>
+            </div>
+            
+            <button class="btn-primary" type="submit">Create Account</button>
+        </form>
+    </body>
+</html>

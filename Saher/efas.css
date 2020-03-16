@@ -1,0 +1,120 @@
+*.bg-blue {
+    background-color: #007BFF !important;
+    color: white;
+}
+
+
+*.bg-dark {
+    background-color: #343A40 !important;
+    color: white;
+}
+
+
+*.bg-green {
+    background-color: #28A745 !important;
+    color: white;
+}
+
+
+*.bg-magenta {
+    background-color: magenta !important;
+}
+
+
+*.bg-purple {
+    background-color: purple !important;
+}
+
+
+*.bg-red {
+    background-color: #DC4535 !important;
+    color: white;
+}
+
+
+*.display-block {
+    display: block !important;
+}
+
+
+
+*.display-inline {
+    display: inline !important;
+}
+
+
+*.justify-content-around {
+    justify-content: space-around !important;
+}
+
+
+*.justify-content-start {
+    justify-content: flex-start !important;
+}
+
+
+*.m-1 {
+    margin: 1rem;
+}
+
+
+*.m-2 {
+    margin: 2rem;
+}
+
+
+*.m-auto {
+    margin: auto !important;
+}
+
+
+*.ml-auto {
+    margin-left: auto !important;
+}
+
+
+*.mr-auto {
+    margin-right: auto !important;
+}
+
+
+
+*.round {
+    border-radius: 50%;
+}
+
+
+*.row {    
+    display: flex !important;
+}
+
+
+*.transparent-25 {
+    opacity: 75% !important;
+}
+
+
+*.transparent-50 {
+    opacity: 50% !important;
+}
+
+
+*.transparent-75 {
+    opacity: 25% !important;
+}
+
+
+a {
+    text-decoration: none; /* no underline */
+}
+
+
+div.jumbotron {
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+
+nav ul{
+    list-style: none;
+}

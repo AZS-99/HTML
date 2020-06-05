@@ -2,6 +2,11 @@
     background-color: green;
 }
 
+
+*.bg-grey {
+    background-color: gray;
+}
+
 *.align-items-centre {
     align-items: center;
 }
@@ -12,15 +17,38 @@
 }
 
 
-*.grid-5 {
+*.grid {
     display: grid;
+}
+
+
+*.grid-5-columns {
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 10rem;
 }
 
 
 *.justify-space-around {
     justify-content: space-around;
+}
+
+
+*.justify-space-between {
+    justify-content: space-between;
+}
+
+
+*.no-bullets {
+    list-style: none;
+}
+
+
+*.p-5 {
+    padding: 5rem;
+}
+
+
+*.p-half {
+    padding: 0.5rem
 }
 
 

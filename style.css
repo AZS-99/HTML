@@ -1,0 +1,29 @@
+*.bg-green {
+    background-color: green;
+}
+
+*.align-items-centre {
+    align-items: center;
+}
+
+
+*.flex {
+    display: flex;
+}
+
+
+*.grid-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 10rem;
+}
+
+
+*.justify-space-around {
+    justify-content: space-around;
+}
+
+
+*.span-all-grid-columns {
+    grid-column: 1/-1;
+}

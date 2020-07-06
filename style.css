@@ -17,16 +17,6 @@
 }
 
 
-*.grid {
-    display: grid;
-}
-
-
-*.grid-5-columns {
-    grid-template-columns: repeat(5, 1fr);
-}
-
-
 *.justify-space-around {
     justify-content: space-around;
 }
@@ -41,6 +31,17 @@
     list-style: none;
 }
 
+*.p-2 {
+    padding: 2rem;
+}
+
+*.p-3 {
+    padding: 3rem;
+}
+
+*.p-4 {
+    padding: 4rem;
+}
 
 *.p-5 {
     padding: 5rem;
@@ -49,9 +50,4 @@
 
 *.p-half {
     padding: 0.5rem
-}
-
-
-*.span-all-grid-columns {
-    grid-column: 1/-1;
 }

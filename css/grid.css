@@ -1359,7 +1359,7 @@
 	grid-column: span 12;
 }
 
-*.span-all-col {
+*.span-all-cols {
     grid-column: 1/-1;
 }
 
@@ -1443,7 +1443,7 @@
 	grid-row: span 20;
 }
 
-*.span-all-row {
+*.span-all-rows {
 	grid-row: 1/-1;
 }
 
